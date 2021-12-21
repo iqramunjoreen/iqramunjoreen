@@ -37,6 +37,8 @@ body, html{
     text-align:center;
     padding:50px 80px;
   }
+
+  
   
   .section-light{
     background-color:#f4f4f4;
@@ -86,16 +88,40 @@ body, html{
     background-color:transparent;
   }
 
-  .cvbutton{
-      position:absolute;
-      color: white;
-      text-align: center;
-      background-color: rgb(8, 8, 8);
-      opacity: 0.5;
-      border-radius: 20px;
-      top: 55%;
-      left: 46%
-  }
+.cvbutton{
+    position:absolute;
+    color: white;
+    text-align: center;
+    background-color: rgb(8, 8, 8);
+    opacity: 0.5;
+    border-radius: 20px;
+    margin: 0;
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+section img{
+    width: 100%;
+    max-width: 500px;
+    padding: 30px;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 850px){
+    section .container{
+        grid-template-columns: 1fr;
+    }
+}
   
   @media(max-width:568px){
     .pimg1, .pimg2, .pimg3{
