@@ -6,6 +6,7 @@ body, html{
     font-weight:400;
     line-height:1.8em;
     color:#666;
+    letter-spacing: 1px;
 }
   
 .pimg1, .pimg2, .pimg3{
@@ -46,7 +47,7 @@ body, html{
 }
   
 .section-dark{
-    background-color:#282e34;
+    background-color:#2e363d;
     color:#ddd;
 }
   
@@ -195,6 +196,16 @@ section img{
     width: 100%;
     max-width: 500px;
     padding: 30px;
+}
+
+/* skills */
+
+.skills{
+    padding-top: 70px;
+}
+
+.skilllogo .l{
+    max-width: 120px;
 }
 
 /* education */
