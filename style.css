@@ -6,9 +6,9 @@ body, html{
     font-weight:400;
     line-height:1.8em;
     color:#666;
-  }
+}
   
-  .pimg1, .pimg2, .pimg3{
+.pimg1, .pimg2, .pimg3{
     position:relative;
     opacity:0.70;
     background-position:center;
@@ -16,41 +16,41 @@ body, html{
     background-repeat:no-repeat;
   
     background-attachment:fixed;
-  }
+}
   
-  .pimg1{
+.pimg1{
     background-image:url('/img/sky.jpg');
     min-height:100%;
-  }
+}
   
-  .pimg2{
+.pimg2{
     background-image:url('/img/keyboard.jpg');
-    min-height:400px;
-  }
+    min-height:370px;
+}
   
-  .pimg3{
+.pimg3{
     background-image:url('/img/pc.jpg');
     min-height:400px;
-  }
+}
   
-  .section{
+.section{
     text-align:center;
     padding:50px 80px;
-  }
+}
 
   
   
-  .section-light{
+.section-light{
     background-color:#f4f4f4;
     color:#666;
-  }
+}
   
-  .section-dark{
+.section-dark{
     background-color:#282e34;
     color:#ddd;
-  }
+}
   
-  .ptext{
+.ptext{
     position:absolute;
     top:50%;
     width:100%;
@@ -59,9 +59,9 @@ body, html{
     font-size:27px;
     letter-spacing:8px;
     text-transform:uppercase;
-  }
+}
 
-  .name{
+.name{
     position: absolute;
     top: 50%;
     width: 100%;
@@ -69,24 +69,24 @@ body, html{
     color: white;
     font-size: 55px;
     letter-spacing: 7px;
-  }
+}
 
-  .border1{
-      background:rgb(8, 8, 8);
-      opacity: 0.6;
-      color: white;
-      padding: 10px 30px;
-  }
+.border1{
+    background:rgb(8, 8, 8);
+    opacity: 0.6;
+    color: white;
+    padding: 10px 30px;
+}
   
-  .ptext .border{
+.ptext .border{
     background-color:#111;
     color:#fff;
     padding:20px;
-  }
+}
   
-  .ptext .border.trans{
+.ptext .border.trans{
     background-color:transparent;
-  }
+}
 
 .cvbutton{
     position:absolute;
@@ -109,10 +109,42 @@ section img{
     padding: 30px;
 }
 
+/* education */
 
+.education{
+    position:absolute;
+    width:100%;
+    text-align:center;
+    color:#000;
+    font-size: 30px;
+    letter-spacing:2px;
+    padding: 55px;
+  }
 
+.edu{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 19px;
+}
 
+.edu.deg{
+    top: 35%;
+}
 
+.edu.maj{
+    top: 46.5%;
+}
+
+.edu.uni{
+    top: 57.8%;
+}
+
+.edu.year{
+    top: 69.3%
+}
+
+/* end of education */
 
 
 
