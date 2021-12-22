@@ -61,6 +61,79 @@ body, html{
     text-transform:uppercase;
 }
 
+.ptext .border{
+    background-color:#111;
+    color:#fff;
+    padding:20px;
+}
+
+.ptext .border.trans{
+    background-color:transparent;
+}
+
+/* nav bar */
+
+.navbar{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin: 0 auto;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color:#282e34e5;
+    color:#ddd;
+}
+
+.logo{
+    font-weight: 300;
+    padding-top: 7px;
+}
+
+.logo span{
+    font-weight: 600;
+}
+
+.hamburger-menu{
+    width: 1.55rem;
+    height: 1.3rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.bar{
+    position: relative;
+    width: 1.2rem; 
+    height: 3px;
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+.bar:before, .bar:after{
+    content: '';
+    position: absolute;
+    width: 1.55rem;
+    height: 3px;
+    right: 0;
+    background-color: #fff;
+    border-radius: 2px;
+}
+
+.bar:before{
+    transform: translateY(-8px);
+}
+
+.bar:after{
+    transform: translateY(8px);
+}
+
+/* end of nav bar */
+
+/* intro page */
+
 .name{
     position: absolute;
     top: 50%;
@@ -77,16 +150,6 @@ body, html{
     color: white;
     padding: 10px 30px;
 }
-  
-.ptext .border{
-    background-color:#111;
-    color:#fff;
-    padding:20px;
-}
-  
-.ptext .border.trans{
-    background-color:transparent;
-}
 
 .cvbutton{
     position:absolute;
@@ -102,6 +165,10 @@ body, html{
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
+
+/* end of intro page */
+
+/* about me */
 
 section img{
     width: 100%;
@@ -146,6 +213,8 @@ section img{
 
 /* end of education */
 
+/* size of title depending on window size */
+
 @media (max-width:1300px){
     .name{
         font-size: 40px;
@@ -161,10 +230,6 @@ section img{
 }
 
 @media (max-width: 850px){
-    section .container{
-        grid-template-columns: 1fr;
-    }
-
     .name{
         font-size: 17px;
     }
