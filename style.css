@@ -146,18 +146,35 @@ section img{
 
 /* end of education */
 
+@media (max-width:1300px){
+    .name{
+        font-size: 40px;
+    }
+    
+}
 
-
+@media (max-width:1000px){
+    .name{
+        font-size: 30px;
+    }
+    
+}
 
 @media (max-width: 850px){
     section .container{
         grid-template-columns: 1fr;
     }
+
+    .name{
+        font-size: 17px;
+    }
 }
   
-  @media(max-width:568px){
+@media(max-width:568px){
     .pimg1, .pimg2, .pimg3{
       background-attachment:scroll;
     }
-  }
+}
+
+
   
