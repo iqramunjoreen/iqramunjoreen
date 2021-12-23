@@ -1,3 +1,3 @@
-what i leanred:
+what i learned:
 - pseudo elements
 - css animations
