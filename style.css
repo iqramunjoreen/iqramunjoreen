@@ -9,7 +9,7 @@ body, html{
     letter-spacing: 1px;
 }
   
-.pimg1, .pimg2, .pimg3{
+.pimg1, .pimg2, .pimg3, .pimg4{
     position:relative;
     opacity:0.70;
     background-position:center;
@@ -31,6 +31,12 @@ body, html{
 .pimg3{
     background-image:url('/img/pc.jpg');
     min-height:400px;
+}
+
+.pimg4{
+    background-image:url('/img/sky.jpg');
+    height:1000px;
+    z-index: -1;
 }
   
 .section{
@@ -302,6 +308,24 @@ section img{
 }
 
 /* end of education */
+
+
+/* contact me */
+
+.ptext2{
+    position:absolute;
+    top:10%;
+    width:100%;
+    text-align:center;
+    color:#000;
+    font-size:27px;
+    letter-spacing:8px;
+    text-transform:uppercase;
+    z-index: 3;
+}
+
+/* end of contact me */
+
 
 /* size of title depending on window size */
 
