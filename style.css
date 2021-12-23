@@ -44,10 +44,18 @@ body, html{
     padding:50px 80px;
 }
 
-  
+.section2{
+    text-align:left;
+    padding:50px 80px;
+} 
+
+.section2 .container{
+    text-align: center;
+}
   
 .section-light{
-    background-color:#f4f4f4;
+    /*background-color:#f4f4f4;*/
+    background-color: rgb(173, 181, 192);
     color:#666;
 }
   
@@ -308,6 +316,66 @@ section img{
 }
 
 /* end of education */
+
+/* experiences */
+
+.timeline{
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 1fr 3px 1fr;
+    color: #666;
+}
+
+.timeline_component{
+    margin: 0 20px 20px 20px;
+}
+
+.timeline_component_bg {
+    padding: 1.5em;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+  
+.timeline_middle {
+    position: relative;
+    background: #ffffff;
+}
+  
+.timeline_point {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 15px;
+    height: 15px;
+    background: #668ea5;
+    border-radius: 50%;
+}
+  
+.timeline_date_right {
+    text-align: right;
+}
+
+.timeline_date_left {
+    text-align: left;
+}
+  
+.timeline_title {
+    margin: 0;
+    font-size: 1.15em;
+    font-weight: bold;
+    padding-top: 10x;
+    padding-bottom: 15px;
+}
+  
+.timeline_paragraph {
+    line-height: 1.5;
+}
+
+/* end of experiences timeline */
 
 
 /* contact me */
