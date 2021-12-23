@@ -15,7 +15,6 @@ body, html{
     background-position:center;
     background-size:cover;
     background-repeat:no-repeat;
-    z-index: -1;
     background-attachment:fixed;
 }
   
@@ -81,6 +80,7 @@ body, html{
     position: fixed;
     width: 100%;
     top: 0;
+    z-index: 3;
 }
   
   /* Style the links inside the navigation bar */
@@ -187,6 +187,7 @@ body, html{
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    
 }
 
 /* social links */
@@ -199,6 +200,7 @@ body, html{
     padding: 0;
     margin: 0;
     display: flex;
+    z-index: 3;
 }
 .social-menu ul li {
     list-style: none;
