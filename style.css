@@ -30,7 +30,7 @@ body, html{
   
 .pimg3{
     background-image:url('/img/pc.jpg');
-    min-height:1000px;
+    min-height:1150px;
 }
 
 .pimg4{
@@ -418,7 +418,7 @@ section img{
 .card{
     float: left;
     background-color: rgba(8, 8, 8, 0.7);
-    height: 400px;
+    height: 450px;
     width: 300px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
     transition: 0.4s;
@@ -439,8 +439,52 @@ section img{
     background-image: url();
 }
 
-.card h2, p{
+.card h4, p{
     margin-left: 15px;
+    text-align: center;
+}
+
+.proj-links ul {
+    position: absolute;
+    left: 50%;
+    bottom: -10px;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    margin: 0;
+    display: flex;
+    z-index: 3;
+}
+.proj-links ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+.proj-links ul li .fa {
+    color: #000000;
+    font-size: 15px;
+    line-height: 50px;
+    transition: .5s;
+}
+.proj-links ul li .fa:hover {
+    color: #ffffff;
+}
+.proj-links ul li a {
+    position: relative;
+    padding: 8px;
+    border-radius: 20px;
+    background-color: rgb(209, 209, 209);
+    text-align: center;
+    transition: 0.5s;
+    transform: translate(0,0px);
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+}
+.proj-links ul li:hover {
+    transform: rotate(0deg) skew(0deg) translate(0, -5px);
+}
+.proj-links ul li:nth-child(1) a:hover {
+    background-color: #1a232b;
+}
+.proj-links ul li:nth-child(2) a:hover {
+    background-color: #b41e1e;
 }
 
 
