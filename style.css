@@ -45,7 +45,7 @@ body, html{
 }
 
 .section2{
-    text-align:left;
+    text-align: left;
     padding:50px 80px;
 } 
 
@@ -196,13 +196,10 @@ body, html{
     background-color: rgb(8, 8, 8);
     opacity: 0.5;
     border-radius: 20px;
-    margin: 0;
-    position: absolute;
-    top: 57%;
+    margin-top: 100px;
+    top: 50%;
     left: 50%;
-    -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    
 }
 
 /* social links */
@@ -344,11 +341,11 @@ section img{
     height: 10px;
     background: #426477;
     border-radius: 50%;
-    transform: translate(-25px,8px)
+    transform: translate(-25px,8px);
 }
 
 .tab{
-    margin-left: 30px;;
+    margin-left: 30px;
 }
   
 .timeline_middle {
@@ -367,14 +364,6 @@ section img{
     border-radius: 50%;
 }
   
-.timeline_date_right {
-    text-align: right;
-}
-
-.timeline_date_left {
-    text-align: left;
-}
-  
 .timeline_title {
     margin: 0;
     font-size: 1.17em;
@@ -387,12 +376,31 @@ section img{
     margin: 0;
     font-size: 1.1em;
     padding-top: 10x;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
 }
-  
-.timeline_paragraph {
-    line-height: 1.5;
+
+.timeline_date{
+    position: block;
+    font-size: 15px;
+    text-align: right;
 }
+
+.hover-content{
+    padding-top: 10px;
+    display: none;
+}
+
+.timeline_component:hover .hover-content{
+    display: block;
+    transition: 1s ease-in;
+}
+
+.timeline_component:hover{
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+}
+
+
 
 /* end of experiences timeline */
 
@@ -402,11 +410,12 @@ section img{
     position:absolute;
     width:100%;
     text-align:center;
-    align-content: center;
+    justify-content: center;
     color:#000;
     font-size: 30px;
     letter-spacing:2px;
     padding: 55px;
+    margin-top: 25px;
 }
 
 .allproj{
@@ -427,6 +436,12 @@ section img{
     color: white;
 }
 
+.card:hover{
+    background-color: rgba(8, 8, 8, 0.9);
+    transform: scale(1.1);
+    transition: all 1s ease;
+}
+
 .card-image{
     height: 250px;
     margin: 15px;
@@ -439,7 +454,7 @@ section img{
     background-image: url();
 }
 
-.card h4, p{
+.card h4, .card p{
     margin-left: 15px;
     text-align: center;
 }
@@ -479,6 +494,7 @@ section img{
 }
 .proj-links ul li:hover {
     transform: rotate(0deg) skew(0deg) translate(0, -5px);
+    transition: all 1s ease;
 }
 .proj-links ul li:nth-child(1) a:hover {
     background-color: #1a232b;
@@ -533,6 +549,17 @@ section img{
 @media(max-width:568px){
     .pimg1, .pimg2, .pimg3{
       background-attachment:scroll;
+    }
+}
+
+@media (max-width: 800px) {
+    
+    .timeline{
+        display: block;
+    }
+      
+    .timeline_middle {
+        display: none;
     }
 }
 
