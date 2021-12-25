@@ -11,7 +11,7 @@ body, html{
   
 .pimg1, .pimg2, .pimg3, .pimg4{
     position:relative;
-    opacity:0.70;
+    opacity:0.80;
     background-position:center;
     background-size:cover;
     background-repeat:no-repeat;
@@ -30,7 +30,7 @@ body, html{
   
 .pimg3{
     background-image:url('/img/pc.jpg');
-    min-height:400px;
+    min-height:1000px;
 }
 
 .pimg4{
@@ -294,19 +294,19 @@ section img{
     font-size: 30px;
     letter-spacing:2px;
     padding: 55px;
-  }
+}
 
 .edu{
-    position:absolute;
-    width:100%;
+    position: relative;
+    width:65%;
     text-align:center;
     align-content: center;
     color:#000;
     font-size: 18px;
     letter-spacing:2px;
-    padding-right: 20%;
-    padding-left: 20%;
     top: 120px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .edu .top{
@@ -398,7 +398,53 @@ section img{
 
 /* projects */
 
-/* end of pojects */
+.project{
+    position:absolute;
+    width:100%;
+    text-align:center;
+    align-content: center;
+    color:#000;
+    font-size: 30px;
+    letter-spacing:2px;
+    padding: 55px;
+}
+
+.allproj{
+    padding-top: 145px;
+    justify-content: center;
+}
+
+
+.card{
+    float: left;
+    background-color: rgba(8, 8, 8, 0.7);
+    height: 400px;
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    transition: 0.4s;
+    margin: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.card-image{
+    height: 250px;
+    margin: 15px;
+    background-size: cover;
+    background-color: turquoise; /*change this later*/
+    opacity: 1;
+}
+
+.card1{
+    background-image: url();
+}
+
+.card h2, p{
+    margin-left: 15px;
+}
+
+
+/* end of projects */
 
 
 /* contact me */
