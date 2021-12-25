@@ -56,7 +56,7 @@ body, html{
 .section-light{
     /*background-color:#f4f4f4;*/
     background-color: rgb(173, 181, 192);
-    color:#666;
+    color:rgb(88, 88, 88);
 }
   
 .section-dark{
@@ -186,6 +186,7 @@ body, html{
     opacity: 0.6;
     color: white;
     padding: 10px 30px;
+    border-radius: 10px;
 }
 
 .cvbutton{
@@ -270,11 +271,13 @@ section img{
     padding: 30px;
 }
 
-/* skills */
+/*skills*/ 
 
 .skills{
     padding-top: 70px;
+    padding-bottom: 70px;
 }
+
 
 .skilllogo .l{
     max-width: 120px;
@@ -286,6 +289,7 @@ section img{
     position:absolute;
     width:100%;
     text-align:center;
+    align-content: center;
     color:#000;
     font-size: 30px;
     letter-spacing:2px;
@@ -293,26 +297,20 @@ section img{
   }
 
 .edu{
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    font-size: 19px;
+    position:absolute;
+    width:100%;
+    text-align:center;
+    align-content: center;
+    color:#000;
+    font-size: 18px;
+    letter-spacing:2px;
+    padding-right: 20%;
+    padding-left: 20%;
+    top: 120px;
 }
 
-.edu.deg{
-    top: 35%;
-}
-
-.edu.maj{
-    top: 46.5%;
-}
-
-.edu.uni{
-    top: 57.8%;
-}
-
-.edu.year{
-    top: 69.3%
+.edu .top{
+    padding-top: 10px;
 }
 
 /* end of education */
@@ -325,7 +323,7 @@ section img{
     padding: 25px;
     display: grid;
     grid-template-columns: 1fr 3px 1fr;
-    color: #666;
+    color: rgb(77, 77, 77);
 }
 
 .timeline_component{
@@ -397,6 +395,10 @@ section img{
 }
 
 /* end of experiences timeline */
+
+/* projects */
+
+/* end of pojects */
 
 
 /* contact me */
