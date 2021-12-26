@@ -134,7 +134,8 @@ body, html{
   
   /* Add an active class to highlight the current page */
 .topnav a.active {
-    background-color: #576a7ce1;
+    /*backgrou nd-color: #576a7ce1;*/
+    background-color:rgba(255, 99, 71, 0.5);
     color: #f4f4f4;
 }
   
@@ -340,6 +341,7 @@ section img{
     width: 10px;
     height: 10px;
     background: #426477;
+    background-color:rgba(163, 59, 41, 0.705);
     border-radius: 50%;
     transform: translate(-25px,8px);
 }
@@ -360,7 +362,8 @@ section img{
     transform: translateX(-50%);
     width: 15px;
     height: 15px;
-    background: #668ea5;
+    /*background: #668ea5;*/
+    background-color:rgba(167, 75, 58, 0.87);
     border-radius: 50%;
 }
   
