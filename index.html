@@ -38,12 +38,22 @@
         </div>
 
     <div class="pimg1" id="logo">
-        <div class="name">
+        <div class="name big">
             <span class="border1">
                 HI, I AM
                 <span class="typing-text"></span>
             </span>
         </div>
+
+        <div class="name small">
+            <span class="border1">
+                HI, I AM
+                <span class="typing"></span>
+            </span>
+        </div>
+
+
+
         <a href="./iqra-resume.pdf" download="iqra-resume.pdf" target="__blank" class="cvbutton btn">
             Download CV
         </a>
@@ -71,11 +81,23 @@
           "A TECH ENTHUSIAST",
           "A FULL-STACK DEVELOPER",
         ],
-        typeSpeed: 60,
+        typeSpeed: 100,
         backSpeed:50,
         startDelay:00,
         loop: true,
       });
+    </script>
+
+    <script>
+        var type = new Typed(".typing", {
+        strings: [
+            "IQRA",   
+        ],
+        typeSpeed: 100,
+        backSpeed:50,
+        startDelay:00,
+        loop: true,
+    });
     </script>
 
     
@@ -85,11 +107,10 @@
 
     <section class="section section-dark" id="aboutme">
 
-        <div class="container">
+        <div class="container big">
             <div class="content">
                 <h2>About Me</h2>
             </div>
-            
             <div class="imgcontainer">
                 <img src="./img/image.jpg" alt="">
             </div>
@@ -100,18 +121,53 @@
             </p>
         </div>
 
+        <div class="content small">
+            <h2>About Me</h2>
+        </div>
+            
+        <div class="imgcontainer small">
+            <img src="./img/image.jpg" alt="">
+        </div>
+        <p id="skills" class="small">
+            I am a new CS graduate from Simon Fraser University. I am 23 years old and originally from Bangladesh. I moved to 
+            Vancouver alone when I was 18 and have been living here since. Since my very first CS lecture at SFU, I have been fascinated
+            by programming. I consider myself a creative person. I work hard for what I want, and have enough work experience to prove it. 
+        </p>
+
         <!--skills-->
 
-        <div class="container skill">
+        <div class="container skill big">
 
-        
-            
             <h2 class="skills">Skills</h2>
             
+            <!--add skill logos-->
+            
+            <div class="skilllogo">
+
+                <img src="https://img.icons8.com/color/48/000000/html-5--v1.png" class="l"/>
+                <img src="https://img.icons8.com/color/48/000000/css3.png" class="l"/>
+                <img src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png" class="l"/>
+                <img src="https://img.icons8.com/color/48/000000/c-programming.png" class="l"/>
+                <img src="https://img.icons8.com/color/48/000000/c-sharp-logo-2.png" class="l"/>
+                <img src="https://img.icons8.com/color/48/000000/python--v2.png" class="l"/>
+                <img src="https://img.icons8.com/color/48/000000/amazon-web-services.png" class="l"/>
+                <img src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png" class="l"/>
+                <img src="https://img.icons8.com/color/48/000000/javascript--v1.png" class="l"/>
+                <img src="https://img.icons8.com/color/48/000000/sql.png" class="l"/>
+                <img src="https://img.icons8.com/color/48/000000/git.png" class="l"/>
+                <img src="https://img.icons8.com/color/48/000000/android-os.png" class="l"/>
+                <img src="https://img.icons8.com/color/48/000000/figma.png" class="l"/>
+                <img src="https://img.icons8.com/color/48/000000/intellij-idea.png" class="l" id="education"/>
+                
+            </div>
+
+        </div>
+
+        <div class="skill small">
+
+            <h2 class="skills">Skills</h2>
             
             <!--add skill logos-->
-
-
             
             <div class="skilllogo">
 
@@ -145,7 +201,7 @@
                 Education
             </span>
         </div>
-        <div class="edu container">
+        <div class="edu container big">
                 <div class="border1">
                     <p class="top">B.Sc. Applied Science</p>     
                     <p>Major: Computing Science </p>
@@ -153,6 +209,16 @@
                     <p id="experience">2017-2021 </p>
                 </div>
         </div>
+
+        <div class="edu small">
+            <div class="border1">
+                <p class="top">B.Sc. Applied Science</p>     
+                <p>Major: Computing Science </p>
+                <p>Simon Fraser University </p>
+                <p id="experience">2017-2021 </p>
+            </div>
+        </div>
+
     </div>
         
     
@@ -163,9 +229,11 @@
   
     <section class="section2 section-light">
 
-        <div class="container">
+        <div class="container big">
             <h2>Job Experiences</h2>
         </div>
+
+        <h2 class="sm">Job Experiences</h2>
 
         <div class="timeline">
 
@@ -583,8 +651,12 @@
     </section>
   
     <div class="pimg4 s" id="contactme">
-        <div class="ptext2">
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSer4khV49GsiqXapZg1hHW3w9KlNrkLu7zyBvnm9d9FpNxzwg/viewform?embedded=true" width="450" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        <div class="ptext2 big">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSer4khV49GsiqXapZg1hHW3w9KlNrkLu7zyBvnm9d9FpNxzwg/viewform?embedded=true" width="600" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        </div>
+
+        <div class="ptext2 small">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSer4khV49GsiqXapZg1hHW3w9KlNrkLu7zyBvnm9d9FpNxzwg/viewform?embedded=true" width="300" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
         </div>
     </div>
 

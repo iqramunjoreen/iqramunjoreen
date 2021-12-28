@@ -291,9 +291,10 @@ section img{
     font-size: 30px;
     letter-spacing:2px;
     padding: 55px;
+    align-content: space-around;
 }
 
-.edu{
+.edu.container.big{
     position: relative;
     width:65%;
     text-align:center;
@@ -308,6 +309,12 @@ section img{
     justify-content: space-around;
 }
 
+.edu.small{
+    position: relative;
+    top: 120px;
+    text-align: center;
+}
+
 .edu .top{
     padding-top: 10px;
 }
@@ -315,6 +322,11 @@ section img{
 /* end of education */
 
 /* experiences */
+
+.sm{
+    display: none;
+    text-align: center;
+}
 
 .timeline{
     margin: 0 auto;
@@ -544,6 +556,10 @@ section img{
     z-index: 3;
 }
 
+.small{
+    display: none;
+}
+
 /* end of contact me */
 
 
@@ -581,17 +597,42 @@ section img{
     .container{
         margin: auto;
     }
+
+    .big{
+        display: none;
+    }
+
+    .small{
+        display: block;
+    }
+
+    .sm{
+        display: block;
+    }
+
+    .edu.container.big{
+        display: none;
+    }
 }
 
 @media (max-width: 800px) {
     
     .timeline{
         display: block;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
       
     .timeline_middle {
         display: none;
     }
+    .timeline_component{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
 }
 
 
