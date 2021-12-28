@@ -19,21 +19,21 @@ body, html{
 }
   
 .pimg1{
-    background-image:url('/img/sky.jpg');
+    background-image:url('./img/sky.jpg');
     min-height:100%;
 }
   
 .pimg2{
-    background-image:url('/img/keyboard.jpg');
+    background-image:url('./img/keyboard.jpg');
     min-height:370px;
 }
   
 .pimg3{
-    background-image:url('/img/pc.jpg');
+    background-image:url('./img/pc.jpg');
 }
 
 .pimg4{
-    background-image:url('/img/sky.jpg');
+    background-image:url('./img/sky.jpg');
     height:1000px;
     z-index: -1;
 }
