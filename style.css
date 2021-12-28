@@ -30,7 +30,6 @@ body, html{
   
 .pimg3{
     background-image:url('/img/pc.jpg');
-    min-height:1150px;
 }
 
 .pimg4{
@@ -409,11 +408,10 @@ section img{
 
 /* projects */
 
-.project{
+.project{ /*just title*/
     position:absolute;
     width:100%;
     text-align:center;
-    justify-content: center;
     color:#000;
     font-size: 30px;
     letter-spacing:2px;
@@ -423,15 +421,19 @@ section img{
 
 .allproj{
     padding-top: 145px;
-    justify-content: center;
+    padding-bottom: 50px;
 }
 
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+}
 
 .card{
-    float: left;
     background-color: rgba(8, 8, 8, 0.7);
-    height: 450px;
-    width: 300px;
+    height: 560px;
+    width: 350px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
     transition: 0.4s;
     margin: 10px;
@@ -440,13 +442,13 @@ section img{
 }
 
 .card:hover{
-    background-color: rgba(8, 8, 8, 0.9);
-    transform: scale(1.1);
+    background-color: rgba(8, 8, 8, 0.95);
+    transform: scale(1.12);
     transition: all 1s ease;
 }
 
 .card-image{
-    height: 250px;
+    height: 300px;
     margin: 15px;
     background-size: cover;
     background-color: turquoise; /*change this later*/
@@ -458,7 +460,7 @@ section img{
 }
 
 .card h4, .card p{
-    margin-left: 15px;
+    margin: 8px;
     text-align: center;
 }
 
