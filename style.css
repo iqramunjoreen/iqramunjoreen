@@ -546,7 +546,7 @@ section img{
 
 .ptext2{
     position:absolute;
-    top:10%;
+    top:5%;
     width:100%;
     text-align:center;
     color:#000;
@@ -612,6 +612,18 @@ section img{
 
     .edu.container.big{
         display: none;
+    }
+
+    .card{
+        height: 600px;
+    }
+}
+
+/*delete this section if job hover doesnt work*/
+@media(max-width:568px) and (hover: hover) and (pointer: fine) {
+    .timeline_component:hover .hover-content{
+        display: block;
+        transition: 1s ease-in;
     }
 }
 
