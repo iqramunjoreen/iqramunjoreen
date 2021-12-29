@@ -416,15 +416,7 @@ h2{
     display: none;
 }
 
-.timeline_component:hover .hover-content{
-    display: block;
-    transition: 1s ease-in;
-}
 
-.timeline_component:hover{
-    transform: scale(1.05);
-    transition: all 0.5s ease;
-}
 
 
 
@@ -463,12 +455,6 @@ h2{
     margin: 10px;
     border-radius: 5px;
     color: white;
-}
-
-.card:hover{
-    background-color: rgba(8, 8, 8, 0.95);
-    transform: scale(1.12);
-    transition: all 1s ease;
 }
 
 .card-image{
@@ -628,9 +614,7 @@ section img{
         height: 600px;
     }
 
-    .hover-content{
-        display: block;
-    }
+    
 }
 
 @media (max-width: 800px) {
@@ -639,8 +623,8 @@ section img{
         display: block;
         padding-left: 0px;
         padding-right: 0px;
-        margin-left: 0px;
-        margin-right: 0px;
+        margin-left: -65px;
+        margin-right: -65px;
     }
       
     .timeline_middle {
@@ -650,7 +634,31 @@ section img{
         margin-left: 0px;
         margin-right: 0px;
     }
+    .hover-content{
+        display: block;
+    }
 
+}
+
+/*all hover on only for bigger screens*/
+
+@media (min-width: 800px){
+
+    .timeline_component:hover .hover-content{
+        display: block;
+        transition: 1s ease-in;
+    }
+    
+    .timeline_component:hover{
+        transform: scale(1.05);
+        transition: all 0.5s ease;
+    }
+
+    .card:hover{
+        background-color: rgba(8, 8, 8, 0.95);
+        transform: scale(1.12);
+        transition: all 1s ease;
+    }
 }
 
 
