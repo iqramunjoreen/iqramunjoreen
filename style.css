@@ -25,7 +25,7 @@ body, html{
   
 .pimg2{
     background-image:url('./img/keyboard.jpg');
-    min-height:370px;
+    min-height:380px;
 }
   
 .pimg3{
@@ -270,6 +270,10 @@ section img{
     padding: 30px;
 }
 
+h2{
+    padding-top: 10px;
+}
+
 /*skills*/ 
 
 .skills{
@@ -285,15 +289,18 @@ section img{
 /* education */
 
 .education{
-    position:absolute;
+    /*position:absolute;*/
     width:100%;
     text-align:center;
     align-content: center;
     color:#000;
     font-size: 30px;
     letter-spacing:2px;
-    padding: 55px;
+    padding-top: 70px;
     align-content: space-around;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .edu.container.big{
@@ -303,17 +310,18 @@ section img{
     color:#000;
     font-size: 18px;
     letter-spacing:2px;
-    top: 120px;
+    top: 50px;
     padding-left: 40px;
     padding-right: 40px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    padding-bottom: 80px;
 }
 
 .edu.small{
     position: relative;
-    top: 120px;
+    top: 60px;
     text-align: center;
 }
 
@@ -619,13 +627,9 @@ section img{
     .card{
         height: 600px;
     }
-}
 
-/*delete this section if job hover doesnt work*/
-@media(max-width:568px) and (hover: hover) and (pointer: fine) {
-    .timeline_component:hover .hover-content{
+    .hover-content{
         display: block;
-        transition: 1s ease-in;
     }
 }
 
